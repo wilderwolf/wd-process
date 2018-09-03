@@ -1,0 +1,36 @@
+body {
+  margin: 0
+}
+
+.page__header {
+  background: #29A849
+}
+
+.page__logo {
+
+}
+
+.wd-process__frame {
+  display: flex;
+  min-height: 50px;
+  flex-direction: row;
+  align-items: stretch;
+  position: relative;
+}
+
+.wd-process__agile {
+  background:#f00;
+  width: 50px;
+}
+
+.wd-process__development {
+  background:#00f;
+}
+
+.wd-process__slider {
+  width: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #0f0;
+}
